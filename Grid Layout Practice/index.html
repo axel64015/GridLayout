@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+
+<html>
+
+
+<head>
+
+    <style>
+        .item1 {
+            grid-area: header;
+        }
+
+        .item2 {
+            grid-area: menu;
+            grid-row: 3 / 2;
+        }
+
+        .item3 {
+            grid-area: main;
+        }
+
+        .item4 {
+            grid-area: right;
+        }
+
+        .item5 {
+            grid-area: footer;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-areas:
+                'header header header header header header'
+                'menu main main main right right'
+                'menu footer footer footer footer footer';
+            grid-gap: 30px;
+            background-color: #9ad2ff;
+            padding: 100px;
+            grid-template-columns: min-content auto;
+        }
+
+        .grid-container>div {
+            background-color: rgba(245, 255, 255, 0.8);
+            text-align: center;
+            padding: ;
+            font-size: 30px;
+            border-radius: 15px;
+        }
+
+        .body {
+            background-color: #9ad2ff;
+        }
+    </style>
+</head>
+
+<body class="body">
+
+
+    <div class="grid-container">
+        <div class="item1">
+            <style>
+                .center {
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 5%;
+
+                }
+
+                .item1 {
+                    grid-column: 4 / 4;
+
+                }
+
+                .title {
+                    font-family: Papyrus;
+                    color: rgb(4, 119, 195);
+                    padding: 1px;
+                }
+            </style>
+            <h1 class="title">Lorem Ipsum </h1>
+        </div>
+
+
+
+        <div class="item2">
+            <style>
+                ul {
+                    list-style-type: none;
+                    margin: auto;
+                    padding: 0;
+                    width: 200px;
+                    background-color: #f1f1f1;
+                    border: 1px solid #555;
+                }
+
+                li a {
+                    display: block;
+                    color: #000;
+                    padding: 8px 16px;
+                    text-decoration: none;
+                }
+
+                li {
+                    text-align: center;
+                    border-bottom: 50px solid rgba(245, 255, 255, 0.8);
+                }
+
+                li:last-child {
+                    border-bottom: none;
+                }
+
+                li a.active {
+                    background-color: #4CAF50;
+                    color: white;
+                }
+
+                li a:hover:not(.active) {
+                    background-color: rgb(125, 197, 255);
+                    color: rgb(255, 58, 58);
+                }
+            </style>
+            </head>
+
+            <body>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="page1.html">Page1</a></li>
+                    <li><a href="page2.html">Page 2</a></li>
+                    <li><a href="page3.html">Page 3</a></li>
+                </ul>
+
+
+
+        </div>
+        <div class="item3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen<img src="pudg.jpg" ref="pudgy" width=250px class="center"> book. It
+            has survived not only five centuries, but also the leap
+            into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+            release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+            software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+
+        <div class="item4">It is a long established fact that a reader will be distracted by the readable content of a
+            page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+            distribution of letters, as opposed to using Content here, content here', making it look like readable
+            English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model
+            text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions
+            have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+        </div>
+        <div class="item5">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+            classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor
+            at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a
+            Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the
+            undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
+            (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+            ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
+            comes from a line in section 1.10.32.</div>
+    </div>
+    <p>
+
+    </p>
+
+
+</body>
+
+</html>
